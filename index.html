@@ -1,12 +1,26 @@
-<!DOCTYPE html>
-<html lang="en" role="document">
-	<head>
-		<meta charset="UTF-8" />
-		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
-		<title>Welcome | Interesting tech for V I</title>
-		<script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-app-compat.js"></script><script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-auth-compat.js"></script>
-		<style type="text/css">
-body {
+<!DOCTYPE HTML>
+<html lang="en-US" role="document">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description"
+        content="Interesting Tech for V I offers tools, features for daily use, and tech info for the visually impaired. Join our community for support and resources.">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Interesting Tech for V I - Empowering the Visually Impaired with Technology">
+    <meta property="og:description"
+        content="Discover tools, educational content, and articles designed for visually impaired individuals. Join Interesting Tech for V I today!">
+    <meta property="og:image" content="URL_TO_YOUR_IMAGE">
+    <meta property="og:url" content="YOUR_WEBSITE_URL">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Welcome | Interesting Tech for V I</title>
+    <script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.21.0/firebase-auth-compat.js"></script>
+    <style type="text/css">
+        body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             color: #333;
@@ -14,9 +28,12 @@ body {
             max-width: 600px;
             margin: auto;
         }
-        h1, h2 {
+
+        h1,
+        h2 {
             color: #2c3e50;
         }
+
         button {
             background-color: #3498db;
             color: white;
@@ -26,9 +43,11 @@ body {
             font-size: 16px;
             margin: 10px 0;
         }
+
         button:hover {
             background-color: #2980b9;
         }
+
         input {
             width: 100%;
             padding: 10px;
@@ -36,66 +55,115 @@ body {
             border: 1px solid #ccc;
             border-radius: 4px;
         }
+
         footer {
             text-align: center;
             margin-top: 20px;
             font-size: 14px;
             color: #666;
-        }		</style>
-	</head>
-	<body role="main" style="background-color: rgb(0, 0, 0); color: rgb(255, 255, 255);">
-		<header>
-			<h1>
-				Interesting tech for V I</h1>
-			<p>
-				Your Multy Featured application for Unique and interesting tools .</p>
-		</header>
-		<p>
-			 </p>
-		<p>
-			<main>
-			<h1>
-				Login to Your Account</h1>
-			<p>
-				Welcome to Interesting tech for V I! We are dedicated to providing you with essencial multiple tools and useful features designed to assist visually impaired individuals. Please log in to access exclusive features and tools tailored for your needs.</p>
-			<p>
-				If you already have an account, please sign in using your email and password. If you are a new user, kindly create an account to begin.!</p>
-	<button aria-label="Continue with Email and Password" id="emailSignInBtn" role="button">Continue with Email and Password</button>
-			<div aria-labelledby="emailFormLabel" id="emailForm" role="form" style="display: none;">
-				<h2 id="emailFormLabel">
-					Email and Password Login</h2>
-				<p>
-					Please enter your Correct email and create a strong password that you can remember. So that another user can't able to use or sell your details.</p>
-				<input aria-label="Email" aria-required="true" id="email" placeholder="Please Enter your email " type="email" /> <input aria-label="Password" aria-required="true" id="password" placeholder="Enter your password" type="password" /><button aria-label="Login" id="submitEmailBtn" role="button">Login</button><button aria-label="Sign Up with Email and Password" id="signUpEmailBtn" role="button">Sign Up</button>
-				<p>
-					If you don’t have an account yet, click on the "Sign Up" button to create a new account.</p>
-			</div>
-			<div aria-labelledby="signupFormLabel" id="signupForm" role="form" style="display: none;">
-				<h2 id="signupFormLabel">
-					Create New Account</h2>
-				<p>
-					Please enter your email, password, and confirm your password to create a new account.</p>
-				<input aria-label="Email" aria-required="true" id="signupEmail" placeholder="Enter your email" type="email" /> <input aria-label="Create strong Password" aria-required="true" id="signupPassword" placeholder=" Create your New password" type="password" /> <input aria-label="Re enter and Confirm Password" aria-required="true" id="confirmPassword" placeholder="Confirm your password" type="password" /><button aria-label="Create Account" id="submitSignupBtn" role="button">Create Account</button><button aria-label="Cancel Signup" id="cancelSignupBtn" role="button">Cancel</button></div>
-			</main></p>
-		<p>
-			 </p>
-		<footer>
-			<p>
-				© 2024/2025 Interesting tech for V I. All rights reserved.</p>
-		</footer>
-		<script>
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .logo {
+            max-width: 150px;
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .kuldeep-image {
+            max-width: 100px;
+            height: auto;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body role="main" style="background-color: rgb(0, 0, 0); color: rgb(255, 255, 255);">
+    <header>
+        <div class="logo-container">
+            <img src="https://github.com/Interestingtechforvi/Home/refs/heads/main/logo.jpg"
+                alt="Interesting Tech for V I Logo" class="logo">
+            <!-- <img src="kuldeep.jpg" alt="The logo of interesting tech for v i, contains founders name, brand name, colourful design, and the tagline, lets lear something new, and teach others too." class="kuldeep-image"> -->
+        </div>
+        <h1>
+            Interesting Tech for V I
+        </h1>
+        <p>
+            Your go-to place for unique and interesting tools!
+        </p>
+    </header>
+    <main>
+        <h1>
+            Login to Your Account
+        </h1>
+        <p>
+            Welcome to Interesting Tech for V I! We&#39;re all about giving you essential and multiple tools designed to assist visually impaired
+            users. Log in to access features and tools just for you.
+        </p>
+        <p>
+            Already have an account? Sign in with your Google account or your email and password. New here? Create an account to get started!
+        </p>
+        <button id="googleSignInBtn" role="button" aria-label="Continue with Google">Continue with Google</button>
+        <button id="emailSignInBtn" role="button" aria-label="Continue with Email and Password">Continue with Email and
+            Password</button>
+        <div id="emailForm" style="display: none;" role="form" aria-labelledby="emailFormLabel">
+            <h2 id="emailFormLabel">
+                Email and Password Login
+            </h2>
+            <p>
+                Enter your email and create a strong password. This helps keep your details safe and secure.
+            </p>
+            <input aria-label="Email" aria-required="true" id="email" placeholder="Enter your email" type="email" />
+            <input aria-label="Password" aria-required="true" id="password" placeholder="Enter your password"
+                type="password" />
+            <button aria-label="Login" id="submitEmailBtn" role="button">Login</button>
+            <button aria-label="Sign Up with Email and Password" id="signUpEmailBtn" role="button">Sign Up</button>
+            <p>
+                Don’t have an account yet? Click &amp;quot;Sign Up&amp;quot; to create one!
+            </p>
+        </div>
+        <div id="signupForm" style="display: none;" role="form" aria-labelledby="signupFormLabel">
+            <h2 id="signupFormLabel">
+                Create New Account
+            </h2>
+            <p>
+                Enter your email, create a password, and confirm it to create your new account.
+            </p>
+            <input aria-label="Email" aria-required="true" id="signupEmail" placeholder="Enter your email" type="email" />
+            <input aria-label="Create strong Password" aria-required="true" id="signupPassword"
+                placeholder="Create your New password" type="password" />
+            <input aria-label="Re enter and Confirm Password" aria-required="true" id="confirmPassword"
+                placeholder="Confirm your password" type="password" />
+            <button aria-label="Create Account" id="submitSignupBtn" role="button">Create Account</button>
+            <button aria-label="Cancel Signup" id="cancelSignupBtn" role="button">Cancel</button>
+        </div>
+    </main>
+    <footer>
+        <p>
+            © 2024/2025 Interesting Tech for V I. All rights reserved.
+        </p>
+    </footer>
+    <script>
         const firebaseConfig = {
             apiKey: "AIzaSyCe-tHLxNX0g3cRDIJM2f2dfGfhvd1BQcc",
-    authDomain: "interesting-tech-for-v-i.firebaseapp.com",
-    projectId: "interesting-tech-for-v-i",
-    storageBucket: "interesting-tech-for-v-i.appspot.com",
-    messagingSenderId: "984478442998",
-    appId: "1:984478442998:web:0810b7708925c6a03b13d7",
-    measurementId: "G-WS50501H3Y"
+            authDomain: "interesting-tech-for-v-i.firebaseapp.com",
+            projectId: "interesting-tech-for-v-i",
+            storageBucket: "interesting-tech-for-v-i.appspot.com",
+            messagingSenderId: "984478442998",
+            appId: "1:984478442998:web:0810b7708925c6a03b13d7",
+            measurementId: "G-WS50501H3Y"
         };
 
         const app = firebase.initializeApp(firebaseConfig);
         const auth = firebase.auth();
+
+        const googleSignInBtn = document.getElementById('googleSignInBtn');
         const emailSignInBtn = document.getElementById('emailSignInBtn');
         const emailForm = document.getElementById('emailForm');
         const signupForm = document.getElementById('signupForm');
@@ -109,6 +177,19 @@ body {
                 window.location.href = "https://rawcdn.githack.com/Interestingtechforvi/Home/refs/heads/main/itvihome.html";
             }
         });
+
+        googleSignInBtn.addEventListener('click', () => {
+            const provider = new firebase.auth.GoogleAuthProvider();
+            auth.signInWithPopup(provider)
+                .then((result) => {
+                    setLoginCookie(true);
+                    window.location.href = "https://rawcdn.githack.com/Interestingtechforvi/Home/refs/heads/main/itvihome.html";
+                })
+                .catch((error) => {
+                    alert('Error during Google sign-in: ' + error.message);
+                });
+        });
+
         emailSignInBtn.addEventListener('click', () => {
             emailForm.style.display = 'block';
             googleSignInBtn.style.display = 'none';
@@ -168,7 +249,8 @@ body {
 
         function setLoginCookie(isLoggedIn) {
             const expiryDate = new Date();
-            expiryDate.setTime(expiryDate.getTime() + (30 * 24 * 60 * 60 * 1000)); 
+            expiryDate.setTime(expiryDate.getTime() + (30 * 24 * 60 * 60 * 1000));
+
             const expires = "expires=" + expiryDate.toUTCString();
             document.cookie = "account=" + isLoggedIn + ";" + expires + ";path=/";
         }
@@ -187,5 +269,7 @@ body {
             }
             return false;
         }
-    </script></body>
+    </script>
+</body>
+
 </html>
